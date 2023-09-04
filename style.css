@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+/*font-family: 'Poppins', sans-serif; */
+
 *{
     margin: 0;
     padding: 0;
@@ -18,7 +21,38 @@ ul li{
 .heder .contener{
     width: 1150px;
     height: 100%;
-    background-color: aqua;
+    /*background-color: aqua;*/
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heder-menu .menu {
+    display: flex;
+    align-items: center;
+}
+.heder-menu .menu li a {
+    display: inline block;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffff;
+    font-size: 29px;
+}
+.input-fiuld{
+    height: 50px;
+    width: 270px;
+    background-color: #FFC400;
+    border: none;
+    padding: 0 14px;
+    color: #ffffff;
+    font-size: 24px;
+}
+.input-fiuld::placeholder{
+    font-size: 24px;
+    color: #ffffffff;
+}
+.search-list .icon{
+    height: 50px;
+    width: 70px;
+    background-color: aqua;
 }
