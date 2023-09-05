@@ -227,5 +227,81 @@ ul li{
     color: #272323;
     font-size: 24px;
 }
+.div5{
+    position: relative;
+
+
+
+}
+.div4 .head h1{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+.div5 .input {
+
+    position: absolute;
+
+    background-color: #00BFCB;
+
+}
+.div5 .service{
+    position: absolute;
+    top: 520px;
+    left: 360px;
+    height: 65px;
+    width: 180px;
+    font-size: 24px;
+    padding: 0 50px 0 50px;
+
+}
+.div5 .a{
+    background-color: #FFC400;
+    font-size: 24px;
+    padding:15px 15px 35px 40px;
+    display: inline;
+    color: #fff;
+}
+.head .div5 .a{
+    position: absolute;
+    top: 520px;
+    left: 145px;
+    height: 65px;
+    width: 180px;
+}
+.div5 .o{
+    background-color: #FFC400;
+    font-size: 20px;
+    padding:15px 15px 35px 40px;
+    display: inline;
+    color: #fff;
+}
+.head .div5 .o{
+    position: absolute;
+    top: 520px;
+    left: 380px;
+    height: 65px;
+    width: 180px;
+    display: inline;
+    border: 1px solid#fff;
+
+}
+.div6 .c {
+    position: absolute;
+    height: 100%;
+    width: 60%;
+
+    left: 106.7%;
+    justify-content: center;
+
+}
+
+.div6 .c img{
+    position: absolute;
+    right: 60px;
+    top: 93px;
+    bottom: 125px;
+    width: 513px;
+
+}
 
 
