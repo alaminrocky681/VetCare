@@ -193,3 +193,39 @@ ul li{
     bottom: 125px;
 
 }
+.div4{
+    height: 780px;
+    background-color: #FFF;
+    width: 100%;
+    text-align: center;
+    position: relative;
+
+
+
+}
+.head{
+    width: 60%X;
+    height: 100%;
+    /*background-color: #00BFCB;*/
+    position: absolute;font-family: 'Poppins', sans-serif;
+
+
+}
+.head h1{
+    font-size: 50px;
+    position: absolute;
+    left: 145px;
+    top: 195px;
+    font-size: 64px;
+    color: black;
+
+}
+.head p{
+    position: absolute;
+    left:145px ;
+    top: 380px;
+    color: #272323;
+    font-size: 24px;
+}
+
+
