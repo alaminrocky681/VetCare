@@ -19,6 +19,7 @@ ul li{
 }
 .header img{
     cursor: pointer;
+    left: 90px;
 
 }
 .header .container{
@@ -202,7 +203,7 @@ ul li{
 
 }
 .head{
-    width: 60%X;
+    width: 60%;
     height: 100%;
     /*background-color: #00BFCB;*/
     position: absolute;font-family: 'Poppins', sans-serif;
@@ -266,12 +267,12 @@ ul li{
     height: 65px;
     width: 180px;
 }
-.div5 .o{
+/* .div5 .o{
     background-color: #FFC400;
     font-size: 20px;
     padding:15px 15px 35px 40px;
     display: inline;
-    color: #fff;
+    color: #fff; */
 }
 .head .div5 .o{
     position: absolute;
@@ -296,7 +297,7 @@ ul li{
 .div6 .c img{
     position: absolute;
     right: 60px;
-    top: 93px;
+    top: 110px;
     bottom: 125px;
     width: 513px;
 
@@ -393,3 +394,78 @@ ul li{
     top: 710px;
     font-size: 22px
 }
+
+/* ----------- part 4--------- */
+
+
+.div10 .head-img{
+    position: absolute;
+    height: 100%;
+    width: 60%;
+
+    left: 106.7%;
+    justify-content: center;
+}
+.div10{
+    height: 780px;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.contener{
+    width: 60%;
+    height: 100%;
+    /*background-color: #00BFCB;*/
+    position: absolute;font-family: 'Poppins', sans-serif;
+
+}
+.div10 .contener{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    width: 300px;
+}
+.div10 .text-content h2{
+    font-size: 50px;
+    position: absolute;
+    left: 800px;
+    top: 195px;
+    font-size: 64px;
+    color: black;
+}
+.div10 .text-content p{
+    position: absolute;
+    left:820px ;
+    top: 380px;
+    color: #272323;
+    font-size: 24px;
+}
+.contenerd .button{
+    position: relative;
+}
+.button .a{
+    position: absolute;
+    top: 520px;
+    left: 1200px;
+    height: 65px;
+    width: 180px;
+    font-size: 24px;
+    padding: 0 50px 0 50px;
+}
+.button .a{
+    background-color: #FFC400;
+    font-size: 24px;
+    padding:15px 15px 35px 40px;
+    display: inline;
+    color: #fff;
+}
+/* .contener .button .a{
+    position: absolute;
+    top: 520px;
+    left: 145px;
+    height: 65px;
+    width: 180px;
+} */
+
+
