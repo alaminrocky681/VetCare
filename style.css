@@ -1,92 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,200;1,400&display=swap');
- /*font-family: 'Poppins', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700;1,800&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+    a{
+        text-decoration: none;
+    }
+    ul li{
+        list-style-type: none;
+        
+    }
 
-a{
-    text-decoration: none;
-}
 
-ul li{
-    list-style-type: none;
-}
-
-.header{
+.Header
+{
+    width: 100%;
     height: 121px;
-    background-color:#EAAD00;
-    
+    background-color:#daac00
 }
-
-.header img{
-    cursor: pointer;
-}
-
-.header .container{
+.Header .container{
     width: 1200px;
     height: 100%;
-    padding: o 25px;
-    background-color: #EAAD00;
+    background-color: #daac00;
     margin: 0 auto;
+    padding: 0 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
 
-.header-menu .menu{
+}
+.Header-logo img{
+    cursor: pointer ;
+}
+.Header-Menu .Menu{
     display: flex;
     align-items: center;
 }
 
-.header-menu .menu li:last-child{
-    left: 30px;
-}
 
-.header-menu .menu li a{
+.Header-Menu .Menu li a{
     display: inline-block;
     padding: 10px 20px;
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
     font-size: 29px;
-
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #fff;
 }
 
-.input-field{
+
+.Search-field{
     height: 50px;
     width: 270px;
-    background-color:#FFC400;
+    padding: 0 10px;
+    background-color: #ae8406;
     border: none;
-    padding: 0 14px;
-    color: #fff;
-    font-size: 24px;
+
 }
 
-.input-field::placeholder{
+
+.Search-field::placeholder{
     font-size: 24px;
+    font-weight: 400;
+    font-family:'Poppins', sans-serif;
     color: #fff;
     
-    
 }
+.Search-item{
+    position: relative;
 
-.search-list .icon{
+}
+.Search-btn{
     height: 50px;
     width: 70px;
     background-color: #00BFCB;
-    
-}
-
-.search-list{
-    position:relative;
-    color: #fff;
-    font-size: 24px;
-    
-}
-
-.search-list .icon{
-    position:absolute;
+    position: absolute;
     right: 0;
     top: 0;
     display: flex;
@@ -94,80 +85,131 @@ ul li{
     align-items: center;
     cursor: pointer;
 }
-/* ---------------part 1 ------------- */
 
-.div-1{
-    background-color: #fcc302;
-}
-
-.div-1 .container{
-    padding-top: 50px;
+.search-icon{
+    font-size: 24px;
+    color: #ffffff;
 
 }
-
-.div-1 .main-colam{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    column-gap: 119px;
-    align-items: center;
-}
-.div-1 .flex-colum-1{
+/*----------------banner-section start here--------------*/
+.banner-section{
+    background-color : #fcc302;
     
 }
-
-.div-1 .flex-colum-1 h2{
-  
-    color: white;
-    font-weight: 700;
-    font-size: 40px;  
-    margin-bottom: 20px;
-   
+.banner-section .container{
+    width: 1200px;
+    padding: 0 25px;
+     height: 100%;
+    margin: 0 auto;
+ justify-content: space-between;
+    background-color: #fcc302;
+    padding-top: 90px;
+    padding-bottom: 110px;
 }
 
-.div-1 .flex-colum-1 p{
-    color: #fff;
-    font-size: 25px; 
-    margin-bottom: 25px;
+.banner-text-content {
+    max-width: 60%;
+    
+}
+.banner-image{
+    max-width: 40%;
 }
 
-.div-1 .contact{
+.banner-text-content h1{
+ font-size: 67px;
+ font-weight: 600;
+ color: #ffffff;
+ line-height: 74px;
+ margin-bottom: 40px;
+ line-height: 74px;
+ margin-bottom: 40px;
+}
+
+
+
+.banner-text-content p{
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.banner-button {
+    margin-top: 40px;
+}
+.banner-button a{
+    color: #ffffff;
+    font-size: 24px;
     display: inline-block;
-    font-size: 14px;
-    text-decoration: none;
-    font-weight: 800;
-    text-transform: capitalize;
-    color: #fff;
-    border: 2px solid #00bec9;
-    padding: 12px 30px;
-    background: #00bec9;
-   
+    border-radius: 8px;
+    padding: 24px 34px;
+
+}
+.banner-button a:first-child{
+    background-color:#00bec9 ;
+    padding: 24px 34px;
+    
+
+
+}
+.banner-button a:last-child{
+    border: 3px solid #ffffff;
+    margin-left: 30px;
+
 }
 
-.div-1 .contact:hover{
-    background-color: transparent;
-    color: white;
-    border: 2px solid white;
+
+
+
+/*--------------------animals lover section------------*/
+
+/* .pic3{
+    max-width: 100%;
+
 }
 
-.div-1 .service{
+
+
+
+.animals-lover-section .container{
+    width: 1200px;
+    padding: 140px 25px;
+    margin-left: 150px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.animals-lover-section{
+  max-width: 50%;
+}
+
+.animal-lover_text-content h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #313243;
+    line-height: 56px;
+    margin-bottom: 40px;
+}
+.animal-lover_text-content p{
+    font-size: 29px;
+    font-weight: 400;
+    color: #313243;
+    margin-bottom: 40px;
+
+
+}
+.animal-lover_text-content a{
     display: inline-block;
-    font-size: 14px;
-    text-decoration: none;
-    font-weight: 800;
-    text-transform: uppercase;
-    background:transparent;
-    color: white;
-    padding: 12px 30px;
-    border: 2px solid white;
-    margin-left: 15px;
-}
-.div-1 .service:hover{
-    background: #00bec9;
-}
+    font-size: 24px;
+    color: #ffffff;
+    background-color:#FFC400 ;
+    border-radius: 8px;
+    padding: 24px 34px;
 
 
-
-.div-1 .flex-colum-2 img{
-   width: 419px;
-   
 }
+
+.animals-lover-image{
+  max-width: 50%;
+}
+.animals-lover-image{
+    width: 100%;
+} */
